@@ -68,12 +68,20 @@ function sonIguales(x, y) {
       return false;
     }
   }
+// return x === y ? true : false;
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  return str1.length === str2.length;
+
+// if(str1.length === str2.length) {
+//     return true;
+// }
+// else {
+//   return false; }
+
+  return str1.length === str2.length ? true: false;
 
   }
   
@@ -136,18 +144,22 @@ function elevarAlCuadrado(num) {
   // Tu código:
  return Math.pow(num,2);
 }
+// num ** 2;
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
   return Math.pow(num,3);
 }
+// num * num * num;
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
   return Math.pow(num, exponent);
 }
+//num ** exponent;
+
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
@@ -221,7 +233,7 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-return (base*altura/2);
+return (base*altura*1/2);
 }
 
 
