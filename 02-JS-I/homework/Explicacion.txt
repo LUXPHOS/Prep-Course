@@ -1,0 +1,16 @@
+Variable: Una caja donde puedes guardar información.
+var a = 7 
+
+String: Cadena de caracteres y se escribe entre comillas dobles o simples.
+string = "hola"
+string = 'hola'
+string = "123456"
+
+Función = Es como una licuadora, donde ingresas algo (frutas) y 
+te sale un resultado (jugo).
+
+If: Una condición p/e: If (Si) Estudias, entonces aprobaras sino 
+reprobaras
+
+Valores booleanos: Verdadero o Falso; Nos menciona si un valor es
+                    verdadero o falso. 
